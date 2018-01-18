@@ -31,7 +31,7 @@ bot.on("message", function(message) {
             message.channel.sendMessage("Pong!");
             break;
         case "eat":
-            message.channel.sendMessage("You ate a frikandel");
+            message.channel.sendMessage("You ate a frikandel.");
             break;
         case "8ball":
             if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]); 

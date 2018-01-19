@@ -6,7 +6,11 @@ const PREFIX = "f!";
 var fortunes = [
     "8ball: yes",
     "8ball: no",
-    "8ball: maybe"
+    "8ball: maybe",
+    "8ball: definitely",
+    "8ball: My sources say no",
+    "8ball: Very doubtful",
+    "8ball: Most likely"
 ]
 
 var bot = new Discord.Client();
